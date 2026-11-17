@@ -1,0 +1,276 @@
+==================================================================
+CORRIDA 1 - Mago con Espada + Veneno + Bendición vs Goblin (ejemplo del PDF)
+Entrada:
+  Nombre: Aria
+  Clase: 2 (Mago)
+  Equipamiento: 1,3,5 (Espada, Veneno, Bendición)
+  Enemigo: 1 (Goblin)
+  Bitácora: 1,2,3,4 (todos los detalles)
+==================================================================
+===== RPG POR TURNOS =====
+Nombre: Clases: 1) Guerrero  2) Mago  3) Arquero  4) Pícaro
+Clase: Equipo: 1) Espada  2) Armadura  3) Veneno  4) Amuleto  5) Bendición  6) Runa de fuego
+Equipamiento (separado por comas, Enter = ninguno): Enemigos: 1) Goblin  2) Orco  3) Dragón
+Enemigo: Detalles de bitácora: 1) Críticos  2) Resistencia  3) Estadísticas  4) Victoria
+Detalles (separados por comas, Enter = ninguno): 
+Héroe: Aria (base) + Espada + Veneno + Bendición
+ATK: 40 | DEF: 12 | VEL: 17 | HP: 100
+Enemigo: Goblin salvaje | HP: 60
+
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Aria (base) + Espada + Veneno + Bendición usa AtaqueHechizo sobre Goblin salvaje
+  Daño: 40 | Efecto: hechizo + veneno
+  Goblin salvaje HP: 60 -> 20
+Goblin salvaje usa AtaquePunalada sobre Aria (base) + Espada + Veneno + Bendición
+  Daño: 1 | Efecto: puñalada
+  Aria (base) + Espada + Veneno + Bendición HP: 100 -> 99
+
+--- TURNO 2 ---
+Aria (base) + Espada + Veneno + Bendición usa AtaqueHechizo sobre Goblin salvaje
+  Daño: 40 | Efecto: hechizo + veneno
+  Goblin salvaje HP: 20 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Aria (base) + Espada + Veneno + Bendición (HP restante: 99)
+
+=== BITÁCORA DE COMBATE ===
+T1: Aria -> Goblin salvaje | 40 de daño (hechizo + veneno)
+T1: Goblin salvaje -> Aria | 1 de daño (puñalada)
+T2: Aria -> Goblin salvaje | 40 de daño (hechizo + veneno)
+[Críticos] Golpes críticos en el combate: 0
+[Resistencia] Defensa de Aria: 12 | Defensa de Goblin salvaje: 5
+[Estadísticas] Turnos: 2 | Daño hecho por Aria: 80 | Daño hecho por Goblin salvaje: 1
+*** ¡VICTORIA! Aria gana con 99 HP ***
+
+
+==================================================================
+CORRIDA 2 - Pícaro con Armadura + Runa de fuego vs Orco
+Entrada:
+  Nombre: Kael
+  Clase: 4 (Pícaro)
+  Equipamiento: 2,6 (Armadura, Runa de fuego)
+  Enemigo: 2 (Orco)
+  Bitácora: 1,3,4 (Críticos, Estadísticas, Victoria)
+==================================================================
+===== RPG POR TURNOS =====
+Nombre: Clases: 1) Guerrero  2) Mago  3) Arquero  4) Pícaro
+Clase: Equipo: 1) Espada  2) Armadura  3) Veneno  4) Amuleto  5) Bendición  6) Runa de fuego
+Equipamiento (separado por comas, Enter = ninguno): Enemigos: 1) Goblin  2) Orco  3) Dragón
+Enemigo: Detalles de bitácora: 1) Críticos  2) Resistencia  3) Estadísticas  4) Victoria
+Detalles (separados por comas, Enter = ninguno): 
+Héroe: Kael (base) + Armadura + Runa de fuego
+ATK: 16 | DEF: 16 | VEL: 22 | HP: 90
+Enemigo: Orco guerrero | HP: 90
+
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Kael (base) + Armadura + Runa de fuego usa AtaquePunalada sobre Orco guerrero
+  Daño: 24 (¡CRÍTICO!) | Efecto: puñalada + fuego(+8)
+  Orco guerrero HP: 90 -> 66
+Orco guerrero usa AtaqueEspada sobre Kael (base) + Armadura + Runa de fuego
+  Daño: 8 | Efecto: espadazo
+  Kael (base) + Armadura + Runa de fuego HP: 90 -> 82
+
+--- TURNO 2 ---
+Kael (base) + Armadura + Runa de fuego usa AtaquePunalada sobre Orco guerrero
+  Daño: 24 (¡CRÍTICO!) | Efecto: puñalada + fuego(+8)
+  Orco guerrero HP: 66 -> 42
+Orco guerrero usa AtaqueEspada sobre Kael (base) + Armadura + Runa de fuego
+  Daño: 8 | Efecto: espadazo
+  Kael (base) + Armadura + Runa de fuego HP: 82 -> 74
+
+--- TURNO 3 ---
+Kael (base) + Armadura + Runa de fuego usa AtaquePunalada sobre Orco guerrero
+  Daño: 24 (¡CRÍTICO!) | Efecto: puñalada + fuego(+8)
+  Orco guerrero HP: 42 -> 18
+Orco guerrero usa AtaqueEspada sobre Kael (base) + Armadura + Runa de fuego
+  Daño: 8 | Efecto: espadazo
+  Kael (base) + Armadura + Runa de fuego HP: 74 -> 66
+
+--- TURNO 4 ---
+Kael (base) + Armadura + Runa de fuego usa AtaquePunalada sobre Orco guerrero
+  Daño: 24 (¡CRÍTICO!) | Efecto: puñalada + fuego(+8)
+  Orco guerrero HP: 18 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Kael (base) + Armadura + Runa de fuego (HP restante: 66)
+
+=== BITÁCORA DE COMBATE ===
+T1: Kael -> Orco guerrero | 24 de daño (puñalada + fuego(+8))
+T1: Orco guerrero -> Kael | 8 de daño (espadazo)
+T2: Kael -> Orco guerrero | 24 de daño (puñalada + fuego(+8))
+T2: Orco guerrero -> Kael | 8 de daño (espadazo)
+T3: Kael -> Orco guerrero | 24 de daño (puñalada + fuego(+8))
+T3: Orco guerrero -> Kael | 8 de daño (espadazo)
+T4: Kael -> Orco guerrero | 24 de daño (puñalada + fuego(+8))
+[Críticos] Golpes críticos en el combate: 4
+[Estadísticas] Turnos: 4 | Daño hecho por Kael: 96 | Daño hecho por Orco guerrero: 24
+*** ¡VICTORIA! Kael gana con 66 HP ***
+
+
+==================================================================
+CORRIDA 3 - Guerrero con Armadura + Amuleto + Espada vs Dragón
+Entrada:
+  Nombre: Thorin
+  Clase: 1 (Guerrero)
+  Equipamiento: 2,4,1 (Armadura, Amuleto, Espada)
+  Enemigo: 3 (Dragón)
+  Bitácora: 2,3,4 (Resistencia, Estadísticas, Victoria)
+==================================================================
+===== RPG POR TURNOS =====
+Nombre: Clases: 1) Guerrero  2) Mago  3) Arquero  4) Pícaro
+Clase: Equipo: 1) Espada  2) Armadura  3) Veneno  4) Amuleto  5) Bendición  6) Runa de fuego
+Equipamiento (separado por comas, Enter = ninguno): Enemigos: 1) Goblin  2) Orco  3) Dragón
+Enemigo: Detalles de bitácora: 1) Críticos  2) Resistencia  3) Estadísticas  4) Victoria
+Detalles (separados por comas, Enter = ninguno): 
+Héroe: Thorin (base) + Armadura + Amuleto + Espada
+ATK: 28 | DEF: 26 | VEL: 10 | HP: 120
+Enemigo: Dragón rojo | HP: 150
+
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Thorin (base) + Armadura + Amuleto + Espada usa AtaqueEspada sobre Dragón rojo
+  Daño: 14 | Efecto: espadazo + regenera 2 HP
+  Dragón rojo HP: 150 -> 136
+Dragón rojo usa AtaqueHechizo sobre Thorin (base) + Armadura + Amuleto + Espada
+  Daño: 22 | Efecto: hechizo
+  Thorin (base) + Armadura + Amuleto + Espada HP: 122 -> 100
+
+--- TURNO 2 ---
+Thorin (base) + Armadura + Amuleto + Espada usa AtaqueEspada sobre Dragón rojo
+  Daño: 14 | Efecto: espadazo + regenera 2 HP
+  Dragón rojo HP: 136 -> 122
+Dragón rojo usa AtaqueHechizo sobre Thorin (base) + Armadura + Amuleto + Espada
+  Daño: 22 | Efecto: hechizo
+  Thorin (base) + Armadura + Amuleto + Espada HP: 102 -> 80
+
+--- TURNO 3 ---
+Thorin (base) + Armadura + Amuleto + Espada usa AtaqueEspada sobre Dragón rojo
+  Daño: 14 | Efecto: espadazo + regenera 2 HP
+  Dragón rojo HP: 122 -> 108
+Dragón rojo usa AtaqueHechizo sobre Thorin (base) + Armadura + Amuleto + Espada
+  Daño: 22 | Efecto: hechizo
+  Thorin (base) + Armadura + Amuleto + Espada HP: 82 -> 60
+
+--- TURNO 4 ---
+Thorin (base) + Armadura + Amuleto + Espada usa AtaqueEspada sobre Dragón rojo
+  Daño: 14 | Efecto: espadazo + regenera 2 HP
+  Dragón rojo HP: 108 -> 94
+Dragón rojo usa AtaqueHechizo sobre Thorin (base) + Armadura + Amuleto + Espada
+  Daño: 22 | Efecto: hechizo
+  Thorin (base) + Armadura + Amuleto + Espada HP: 62 -> 40
+
+--- TURNO 5 ---
+Thorin (base) + Armadura + Amuleto + Espada usa AtaqueEspada sobre Dragón rojo
+  Daño: 14 | Efecto: espadazo + regenera 2 HP
+  Dragón rojo HP: 94 -> 80
+Dragón rojo usa AtaqueHechizo sobre Thorin (base) + Armadura + Amuleto + Espada
+  Daño: 22 | Efecto: hechizo
+  Thorin (base) + Armadura + Amuleto + Espada HP: 42 -> 20
+
+--- TURNO 6 ---
+Thorin (base) + Armadura + Amuleto + Espada usa AtaqueEspada sobre Dragón rojo
+  Daño: 14 | Efecto: espadazo + regenera 2 HP
+  Dragón rojo HP: 80 -> 66
+Dragón rojo usa AtaqueHechizo sobre Thorin (base) + Armadura + Amuleto + Espada
+  Daño: 22 | Efecto: hechizo
+  Thorin (base) + Armadura + Amuleto + Espada HP: 22 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Dragón rojo (HP restante: 66)
+
+=== BITÁCORA DE COMBATE ===
+T1: Thorin -> Dragón rojo | 14 de daño (espadazo + regenera 2 HP)
+T1: Dragón rojo -> Thorin | 22 de daño (hechizo)
+T2: Thorin -> Dragón rojo | 14 de daño (espadazo + regenera 2 HP)
+T2: Dragón rojo -> Thorin | 22 de daño (hechizo)
+T3: Thorin -> Dragón rojo | 14 de daño (espadazo + regenera 2 HP)
+T3: Dragón rojo -> Thorin | 22 de daño (hechizo)
+T4: Thorin -> Dragón rojo | 14 de daño (espadazo + regenera 2 HP)
+T4: Dragón rojo -> Thorin | 22 de daño (hechizo)
+T5: Thorin -> Dragón rojo | 14 de daño (espadazo + regenera 2 HP)
+T5: Dragón rojo -> Thorin | 22 de daño (hechizo)
+T6: Thorin -> Dragón rojo | 14 de daño (espadazo + regenera 2 HP)
+T6: Dragón rojo -> Thorin | 22 de daño (hechizo)
+[Resistencia] Defensa de Thorin: 26 | Defensa de Dragón rojo: 14
+[Estadísticas] Turnos: 6 | Daño hecho por Thorin: 84 | Daño hecho por Dragón rojo: 132
+xxx DERROTA: Dragón rojo ganó el combate xxx
+
+
+==================================================================
+CORRIDA 4 - Arquero con Runa de fuego + Espada + Bendición vs Dragón
+Entrada:
+  Nombre: Lyra
+  Clase: 3 (Arquero)
+  Equipamiento: 6,1,5 (Runa de fuego, Espada, Bendición)
+  Enemigo: 3 (Dragón)
+  Bitácora: (ninguno, solo bitácora básica)
+==================================================================
+===== RPG POR TURNOS =====
+Nombre: Clases: 1) Guerrero  2) Mago  3) Arquero  4) Pícaro
+Clase: Equipo: 1) Espada  2) Armadura  3) Veneno  4) Amuleto  5) Bendición  6) Runa de fuego
+Equipamiento (separado por comas, Enter = ninguno): Enemigos: 1) Goblin  2) Orco  3) Dragón
+Enemigo: Detalles de bitácora: 1) Críticos  2) Resistencia  3) Estadísticas  4) Victoria
+Detalles (separados por comas, Enter = ninguno): 
+Héroe: Lyra (base) + Runa de fuego + Espada + Bendición
+ATK: 31 | DEF: 9 | VEL: 23 | HP: 100
+Enemigo: Dragón rojo | HP: 150
+
+=== COMBATE INICIADO ===
+
+--- TURNO 1 ---
+Lyra (base) + Runa de fuego + Espada + Bendición usa AtaqueFlecha sobre Dragón rojo
+  Daño: 32 | Efecto: flecha + fuego(+8)
+  Dragón rojo HP: 150 -> 118
+Dragón rojo usa AtaqueHechizo sobre Lyra (base) + Runa de fuego + Espada + Bendición
+  Daño: 22 | Efecto: hechizo
+  Lyra (base) + Runa de fuego + Espada + Bendición HP: 100 -> 78
+
+--- TURNO 2 ---
+Lyra (base) + Runa de fuego + Espada + Bendición usa AtaqueFlecha sobre Dragón rojo
+  Daño: 32 | Efecto: flecha + fuego(+8)
+  Dragón rojo HP: 118 -> 86
+Dragón rojo usa AtaqueHechizo sobre Lyra (base) + Runa de fuego + Espada + Bendición
+  Daño: 22 | Efecto: hechizo
+  Lyra (base) + Runa de fuego + Espada + Bendición HP: 78 -> 56
+
+--- TURNO 3 ---
+Lyra (base) + Runa de fuego + Espada + Bendición usa AtaqueFlecha sobre Dragón rojo
+  Daño: 32 | Efecto: flecha + fuego(+8)
+  Dragón rojo HP: 86 -> 54
+Dragón rojo usa AtaqueHechizo sobre Lyra (base) + Runa de fuego + Espada + Bendición
+  Daño: 22 | Efecto: hechizo
+  Lyra (base) + Runa de fuego + Espada + Bendición HP: 56 -> 34
+
+--- TURNO 4 ---
+Lyra (base) + Runa de fuego + Espada + Bendición usa AtaqueFlecha sobre Dragón rojo
+  Daño: 32 | Efecto: flecha + fuego(+8)
+  Dragón rojo HP: 54 -> 22
+Dragón rojo usa AtaqueHechizo sobre Lyra (base) + Runa de fuego + Espada + Bendición
+  Daño: 22 | Efecto: hechizo
+  Lyra (base) + Runa de fuego + Espada + Bendición HP: 34 -> 12
+
+--- TURNO 5 ---
+Lyra (base) + Runa de fuego + Espada + Bendición usa AtaqueFlecha sobre Dragón rojo
+  Daño: 32 | Efecto: flecha + fuego(+8)
+  Dragón rojo HP: 22 -> 0
+
+=== COMBATE FINALIZADO ===
+Ganador: Lyra (base) + Runa de fuego + Espada + Bendición (HP restante: 12)
+
+=== BITÁCORA DE COMBATE ===
+T1: Lyra -> Dragón rojo | 32 de daño (flecha + fuego(+8))
+T1: Dragón rojo -> Lyra | 22 de daño (hechizo)
+T2: Lyra -> Dragón rojo | 32 de daño (flecha + fuego(+8))
+T2: Dragón rojo -> Lyra | 22 de daño (hechizo)
+T3: Lyra -> Dragón rojo | 32 de daño (flecha + fuego(+8))
+T3: Dragón rojo -> Lyra | 22 de daño (hechizo)
+T4: Lyra -> Dragón rojo | 32 de daño (flecha + fuego(+8))
+T4: Dragón rojo -> Lyra | 22 de daño (hechizo)
+T5: Lyra -> Dragón rojo | 32 de daño (flecha + fuego(+8))
+
+
